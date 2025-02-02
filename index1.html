@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cara menempatkan CSS</title>
+    <link rel="stylesheet" href="style1.css" />
+    <style>
+      /* Teknik seperti ini disebut embed */
+      p {
+        text-align: center;
+        color: red;
+      }
+
+      .navbar {
+        background-color: orange;
+      }
+
+      #header {
+        font-size: 24px;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="">Beranda</a></li>
+        <li><a href="">Artikel</a></li>
+        <li><a href="">Pelatihan</a></li>
+        <li><a href="">Kritik Saran</a></li>
+      </ul>
+    </nav>
+    <header id="header">
+      <h1>Masyarakat 5.0</h1>
+      <p>Antara Peluang, Tantangan dan Ancaman</p>
+    </header>
+
+    <!-- teknik seperti ini disebut inline -->
+    <p style="text-align: center; color: red">
+      Apakah kamu pernah mendengar istilah society 5.0? Jika sebelumnya ada
+    </p>
+  </body>
+</html>

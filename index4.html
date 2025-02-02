@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh CSS Background</title>
+    <style>
+      /* Mengatur warna latar belakang seluruh halaman */
+      body {
+        background-color: #f4f4f4; /* Warna abu-abu muda */
+      }
+
+      /* Mengatur background warna untuk header */
+      header {
+        background-color: #3498db; /* Warna biru */
+        color: white; /* Warna teks putih */
+        text-align: center;
+      }
+
+      /* Mengatur background dengan gambar */
+      .content {
+        background-image: url("../Gambar/duta.jpg"); /* Gambar dari Unsplash */
+        background-size: cover; /* Gambar menyesuaikan ukuran div */
+        background-position: center; /* Gambar dipusatkan */
+        color: white;
+        text-align: center;
+      }
+
+      /* Mengatur background dengan gradasi warna */
+      .gradient-box {
+        background: linear-gradient(
+          to right,
+          #ff7e5f,
+          #feb47b
+        ); /* Gradasi dari oranye ke peach */
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Judul Halaman</h1>
+    </header>
+
+    <div class="content">
+      <h2>Bagian dengan Background Gambar</h2>
+      <p>Teks ini berada di atas gambar latar belakang.</p>
+    </div>
+
+    <div class="gradient-box">
+      Ini adalah div dengan background gradasi warna.
+    </div>
+  </body>
+</html>
